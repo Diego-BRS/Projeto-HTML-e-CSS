@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Footvolley Perú - Formulario Contacto</title>
+  <link rel="stylesheet" href="/styles-form.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- INICIO HEADER -->
+  <header>
+    <!-- INICIO HEADER-CONTAINER -->
+    <div class="header-logo">
+      <a href="index.html">
+        <img class="logo-img"
+          src="https://scontent-cdt1-1.xx.fbcdn.net/v/t39.30808-6/274333277_1398306097291318_4685288088292884670_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=9qglhCBrFooAX_aSGHQ&_nc_ht=scontent-cdt1-1.xx&oh=00_AfA2iOjK23FN-7HtUqba-RY_ncYQ8oa7nyHS7fCdBk7bwA&oe=63F7F190"
+          alt="Logo de footvolley Perú">
+      </a>
+    </div>
+    <!-- FIM HEADER-CONTAINER -->
+    <div class="header-links">
+      <div class="links">
+        <a href="index.html">Inicio</a>
+      </div>
+      <div class="links">
+        <a href="sobre-nosotros.html">Sobre Nosotros</a>
+      </div>
+      <div class="links">
+        <a href="articulos.html">Articulos</a>
+      </div>
+      <div class="links">
+        <ul>
+          <li class="dropdown">
+            <a href="galeria-fotos.html" class="dropbtn">Galeria de fotos</a>
+            <div class="dropdown-content">
+              <a href="fotos-2020.html">2020</a>
+              <a href="fotos-2019.html">2019</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="links">
+        <a href="precios-horarios.html">Precios y horarios</a>
+      </div>
+      <div class="links">
+        <a href="contacto.html">Contacto</a>
+      </div>
+    </div>
+  </header>
+  <!-- FIM HEADER -->
+
+  <main>
+
+    <h3>Contactanos</h3>
+
+    <form method="post" action="https://getform.io/f/7acddf08-6362-4647-a68e-7d605d9d1f6f">
+
+      <label for="name">Nombre completo :</label>
+      <input type="text" name="name" placeholder="Digita tu nombre completo" class="input-normal" required minlength="4"
+        maxlength="16">
+      <label for="email">E_mail :</label>
+      <input type="email" name="email" placeholder="john@email.com" required class="input-normal">
+      <label for="mensaje">Mensaje :</label>
+      <textarea type="textarea" name="mensaje" placeholder="Digita tu mensaje" rows="4" cols="50" required=""
+        minlength="16" maxlength="140"></textarea>
+      <div class="form-radio">
+        <p>Deseas suscribirte a nuestras publicaciones ?</p> <br>
+        <div class="radio-button">
+          <label for="si">Si</label>
+          < <input type="radio" id="si" name="newsletter" value="si" checked="checked"> <br>
+        </div>
+        <div class="radio-button">
+          <label for="no">No</label>
+          <input type="radio" id="no" name="newsletter" value="no"> <br>
+        </div>
+        <div class="pais">
+          <label for="country">Pais : </label>
+          <select id="country" name="country">
+            <option value="Peru">Peru</option>
+            <option value="Extranjero">Extranjero</option>
+          </select>
+        </div>
+
+        <input class="envio-btn" type="submit" value="Enviar">
+
+    </form>
+
+  </main>
+
+  <footer>
+
+    <div class="footer-links">
+      <div class="links">
+        <a href="https://www.youtube.com/@footvolleyperu264" target="_blank"><img src="/images/youtube-logo.png"
+            alt="youtube-logo"></a>
+      </div>
+      <div class="links">
+        <a href="#"><img src="/images/twitter-logo.png" alt="twitter-logo"></a>
+      </div>
+      <div class="links">
+        <a href="https://www.facebook.com/footvolleyperu" target="_blank"><img src="/images/facebook-logo.png"
+            alt="facebook-logo"></a>
+      </div>
+      <div class="links">
+        <a href="https://www.facebook.com/messages/t/589009448220991" target="_blank"><img
+            src="/images/messenger-logo.png" alt="messenger-logo"></a>
+      </div>
+      <div class="links">
+        <a href="https://www.instagram.com/footvolleyperu" target="_blank"><img src="/images/instagram-logo.png"
+            alt="instagram-logo"></a>
+      </div>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
